@@ -1,5 +1,5 @@
 
-
+//question 1 first matala.
 public class Main {
     public static void main(String[] args) {
         System.out.println(ispalindrome(141));
