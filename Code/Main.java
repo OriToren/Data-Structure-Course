@@ -1,6 +1,6 @@
 
 //question 1 first matala.
- public static boolean ispalindrome(int num){
+ public static boolean isPalindrome(int num){
         if (num<0){
             return false;
         }
