@@ -35,7 +35,7 @@ private static Boolean search(int[] array, int target, int start, int end) {
 
 public static Boolean recrusive_search(int[] array, int target) {
 
-// Handle empty or null arrays
+
 
     if (array == null || array.length == 0) {
 
@@ -45,7 +45,7 @@ public static Boolean recrusive_search(int[] array, int target) {
 
 
 
-// Start the recursive search on the full range (index 0 to length - 1)
+
 
     return search(array, target, 0, array.length - 1);
 
