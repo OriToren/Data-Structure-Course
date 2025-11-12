@@ -1,0 +1,4 @@
+time complexity t(n)=at(n/b)+f(n) means:
+do a actions on 1/b of n. which takes for each recursion f(n) time.
+for example binary search t(n)=t(n/2)+1
+do an action on half of n (so do the search again) while finding out if the middle is your target (the +1 cost).
